@@ -1,0 +1,252 @@
+{
+    "spider": "./jar/pan.jar;md5;25e39937c4bdd4c783eeb86a52672f64",
+    "notice": "",
+    "logo": "./logo.png",
+    "sites": [
+        {
+            "key": "csp_XYQHiker_农民影视",
+            "name": "天",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "jar": "./jar/spider.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/农民影视.json"
+        },
+        {
+            "key": "py瓜子",
+            "name": "扬",
+            "type": 3,
+            "api": "./py/瓜子.py"
+        },
+        {
+            "key": "drpy_js_金牌",
+            "name": "热",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/金牌影视.js"
+        },
+        {
+            "key": "cat_荐片app",
+            "name": "播",
+            "type": 3,
+            "api": "./js/荐片.js"
+        },
+        {
+            "key": "csp_Bili",
+            "name": "哔哩",
+            "type": 3,
+            "api": "csp_BiliJs",
+            "filterable": 1,
+            "searchable": 1,
+            "changeable": 0,
+            "ext": {
+                "type": "./json/bili.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.333
+            }
+        },
+        {
+            "key": "csp_Config",
+            "name": "🧡配制🧡",
+            "type": 3,
+            "api": "csp_Config",
+            "searchable": 0,
+            "changeable": 0
+        },
+        {
+            "key": "csp_Xxzn",
+            "name": "🖤4K指南🖤",
+            "type": 3,
+            "hide": 1,
+            "api": "csp_Xxzn",
+            "filterable": 1,
+            "searchable": 1,
+            "changeable": 1,
+            "timeout": 60,
+            "ext": {
+                "filters": "./json/xxzn.json",
+                "sites": "https://4kzn.com"
+            }
+        },
+        {
+            "key": "csp_XinTiao",
+            "name": "🖤心跳4k🖤",
+            "type": 3,
+            "hide": 1,
+            "timeout": 60,
+            "api": "csp_XinTiao",
+            "searchable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "csp_TgDouban",
+            "name": "🖤TG盘搜🖤",
+            "type": 3,
+            "hide": 1,
+            "api": "csp_TgDouban",
+            "searchable": 1,
+            "changeable": 1,
+            "timeout": 60,
+            "ext": {
+                "filters": "./json/douban.json"
+            }
+        },
+        {
+            "key": "csp_PingLian",
+            "name": "🖤盘链🖤",
+            "type": 3,
+            "hide": 1,
+            "api": "csp_PingLian",
+            "searchable": 1,
+            "changeable": 1,
+            "timeout": 60,
+            "ext": {
+                "cookie": "",
+                "filters": "./json/pinglian.json",
+                "sites": "https://pinglian.lol"
+            }
+        },
+        {
+            "key": "csp_GuanYing",
+            "name": "🖤观影4K🖤",
+            "type": 3,
+            "hide": 1,
+            "api": "csp_GuanYing",
+            "searchable": 1,
+            "changeable": 1,
+            "timeout": 60,
+            "ext": {
+                "cookie": "",
+                "filters": "./json/guanying.json",
+                "sites": "https://www.xn--wcv59z.com/",
+                "proxy": "noproxy"
+            }
+        },
+        {
+            "key": "csp_QiWei",
+            "name": "🖤七味4K🖤",
+            "type": 3,
+            "hide": 1,
+            "timeout": 60,
+            "api": "csp_QiWei",
+            "searchable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "csp_Leijing",
+            "name": "🖤雷鲸网盘🖤",
+            "type": 3,
+            "hide": 1,
+            "api": "csp_Leijing",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "timeout": 60,
+            "style": {
+                "type": "list"
+            },
+            "ext": {
+                "sites": "https://www.leijing.xyz,https://www.leijing1.com,https://leijing.xyz,https://leijing1.com",
+                "proxy": "noproxy",
+                "classes": "./json/leijing.json"
+            }
+        },
+        {
+            "key": "csp_PanSou",
+            "name": "🖤盘搜🖤",
+            "type": 3,
+            "hide": 1,
+            "api": "csp_PanSou",
+            "searchable": 1,
+            "changeable": 1,
+            "timeout": 60,
+            "ext": {
+                "include": [
+                    "HDR",
+                    "高码"
+                ],
+                "exclude": [
+                    "预告",
+                    "花絮"
+                ]
+            }
+        },
+        {
+            "key": "夸克推送",
+            "name": "🖤夸克推送🖤",
+            "type": 4,
+            "hide": 1,
+            "api": "https://so.yinpai.xyz/api.php?type=quark"
+        },
+        {
+            "key": "百度推送",
+            "name": "🖤百度推送🖤",
+            "type": 4,
+            "hide": 1,
+            "api": "https://so.yinpai.xyz/api.php?type=baidu"
+        },
+        {
+            "key": "UC推送",
+            "name": "🖤优熙推送🖤",
+            "type": 4,
+            "hide": 1,
+            "api": "https://so.yinpai.xyz/api.php?type=uc"
+        },
+        {
+            "key": "天翼推送",
+            "name": "🖤天翼推送🖤",
+            "type": 4,
+            "hide": 1,
+            "api": "https://so.yinpai.xyz/api.php?type=tianyi"
+        },
+        {
+            "key": "123推送",
+            "name": "🖤123盘推送🖤",
+            "type": 4,
+            "hide": 1,
+            "api": "https://so.yinpai.xyz/api.php?type=123"
+        },
+        {
+            "key": "移动推送",
+            "name": "🖤移动推送🖤",
+            "type": 4,
+            "hide": 1,
+            "api": "https://so.yinpai.xyz/api.php?type=mobile"
+        },
+        {
+            "key": "迅雷",
+            "name": "🖤迅雷推送🖤",
+            "type": 4,
+            "hide": 1,
+            "api": "https://so.yinpai.xyz/api.php?type=xunlei"
+        },
+        {
+            "key": "csp_PgDouban",
+            "name": "🖤PG豆瓣🖤",
+            "type": 3,
+            "hide": 1,
+            "api": "csp_PgDouban",
+            "searchable": 1,
+            "changeable": 1,
+            "timeout": 60,
+            "ext": {
+                "filters": "./json/douban.json",
+                "channel": "yunpan139,ydypzyfx,sbsbsnsqq,Q_dongman,yoyokuakeduanju,TG654TG,dianying4K,yeqingjie_GJG666,PanjClub,guoman4K,alyp_1,kuake_yppan,yunpanuc,BaiduCloudDisk,Baidu_Netdisk,bdwpzhpd,baidu_yppan,zyfb123,xx123pan,zyzhpd123,yp123pan,cloudtianyi,txtyzy,peccxinpd,yunpan189,tianyirigeng,tyypzhpd,shareAliyun,zaihuayun,ali_yppan"
+            }
+        },
+        {
+            "key": "push_agent",
+            "name": "🖤链接┃推送🖤",
+            "type": 3,
+            "hide": 1,
+            "api": "csp_Push",
+            "searchable": 0,
+            "changeable": 0,
+            "timeout": 60
+        }
+    ]
+}
