@@ -34,6 +34,19 @@
             "api": "./js/荐片.js"
         },
         {
+            "key": "瞬启视频",
+            "name": "秒播",
+            "type": 3,
+            "hide": 1,
+            "api": "./js/hmys.js",
+            "ext": {
+                "host": "https://dy.oogsy.com/",
+                "app_id": "shunqi",
+                "versionCode": "10000",
+                "UMENG_CHANNEL": "zhuan"
+            }
+        },
+        {
             "key": "csp_Bili",
             "name": "哔哩",
             "type": 3,
